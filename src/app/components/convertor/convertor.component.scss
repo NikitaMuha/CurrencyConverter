@@ -1,0 +1,33 @@
+
+:host{
+    .currency-convertor{
+        width: 40vw;
+        background: #fff;
+        margin-top: 10px;
+        box-shadow: 0px 0px 10px 0px #00000026;
+        border-radius: 12px;
+        box-sizing: border-box;
+        padding: 20px;
+
+    &__main{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    }
+
+
+
+    @media (max-width: 320px) {
+        .currency-convertor{
+            width: 90vw;
+        }
+        }
+    @media (max-width: 1440px) {
+    .currency-convertor{
+        width: 60vw;
+    }
+    }
+}
